@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+}
+
+p, nav {
+  font-family: Courier New;
+}
+
+a, a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: orange;
+}

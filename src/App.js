@@ -1,25 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Nav from './nav';
+import './css/App.css';
+import Home from './pages/Home';
+import Hair from './pages/Hair';
+import Video from './pages/Video';
+
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
+  const baseUrl = process.env.PUBLIC_URL;
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <Nav />
+        <Switch>
+          <Route path={baseUrl + '/'} exact component={Home}></Route>
+          <Route path={baseUrl + '/cine'} exact component={Video}></Route>
+          <Route path={baseUrl + '/hair'} exact component={Hair}></Route>
+          <Route path={baseUrl + '*'} exact component={Home}></Route>
+
+        </Switch>
+      </div>
+    </Router>
   );
 }
 

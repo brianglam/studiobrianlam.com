@@ -1,0 +1,14 @@
+
+.photoWrapper img {
+    width: 400px;
+    height: 400px;
+    padding: 10px 3px;
+    object-fit: cover;
+}
+
+@media (min-width: 500px) {
+    .rotateStyle {
+        transform: rotate(-0.25turn);
+    }
+}
+
