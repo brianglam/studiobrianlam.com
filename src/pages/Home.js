@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import "./../css/Home.css";
+import HeaderImageContainer from './../components/HeaderImageContainer';
 
 class Home extends Component {
     render() {
+        
         return (
             <div className="home">
                 <div>
-                    <img style={ imgStyle } src="https://drive.google.com/uc?id=1d59Xii8ni5dZb_aQLQk8abQVWzXePRYv" />
-                    
+                    <HeaderImageContainer imgURL="https://drive.google.com/uc?id=1d59Xii8ni5dZb_aQLQk8abQVWzXePRYv"/>         
                 </div>
                 <div>
                     <p>Hi my name is Brian.</p>
@@ -20,10 +21,6 @@ class Home extends Component {
             </div>
         );
     }
-}
-
-const imgStyle = {
-    width: "100vh"
 }
 
 export default Home;

@@ -1,26 +1,35 @@
 import React, { Component } from 'react';
 import './../css/App.css';
 import './../css/Hair.css';
+import HairImageContainer from '../components/HairImageContainer';
+import HeaderImageContainer from './../components/HeaderImageContainer';
+import { useSpring, animated } from 'react-spring/renderprops-universal';
 
 class Hair extends Component {
+
+    imgIDArray = ['17Eji5FFJmiGfJGEtl8ASMOHpHbsNwLuy', '1qfIXvTTMdEVO-T6AisrQI9cwdDYc1My3', 
+        '1gxP3-85OnZJvQzTdpp9Bpmy8V4l86RD0', '16195aLqT5yVDYN0DabvHvWH1RaSMNooU', '1LQAadipLUcYz3DoVeOn3o5bi3Cxq0MtM',
+        '1xJ9WoHV_Fy8FsQ1rs6G2yNPzuPop4er7', '1Lt9aNp7VZe2pTsm1-i4Qhla6_suz-s87', '17N61vFfLoK9Emd7NDIIh-rNHFxoEDmLr',
+        '1-dsol3-VPpnjXyKUwHX4Hv0GIqlKWMYN', '1ePiAFVwJ34vpQ9rKGXqmH88w0NSr-b_C', '1DdorUxMx6udhcb0ylny_V9JaQN_FPq0t',
+        '1NLl7G0PiTygd0c7OaiQqm_r9ropsudzE', '1H6B8nhneMhj5XdXiWT9_oVXAgphZ-D9t', '1gj9b_Jm6ZeoWWmkO3RwA7P9hhDp27BUt',
+        '11kT948JX6i_LYTWiQ_Hu17OaqfmvV42P'
+    ]
+    
     render() {
         return (
             <div>
+                <div>
+                    <div>
+                        <img width='300vh' src='https://drive.google.com/uc?id=1yugymc1NwZe1E4U6Xw-pLhKNkINAN4Ah'></img>
+                    </div>
+                    <div>
+                        <p>I learned how to cut hair on Youtube. Since 2005, I've had the pleasure of transforming the image of many good friends.</p>
+                    </div>
+
+                </div>
                 <div className="photoWrapper">
-                   
-                    <img src="https://drive.google.com/uc?id=1mRaeW0ooNTVQqNGGIyc_0N3_SEubT5XA"/>
-                    <img src="https://drive.google.com/uc?id=1Jk9wzPZ-dp0zBblLYXqP4uTlPbdwYKcL"/>
-                    <img class="rotateStyle" src="https://drive.google.com/uc?id=1_xCzeRdW-vns8zhiaWpBa-KxZiNT8Pik"/>
-                    <img class="rotateStyle" src="https://drive.google.com/uc?id=19AQRlJo52miepI0BHNHD9MV3QUkVbYwa"/>
-                    <img src="https://drive.google.com/uc?id=1No6Q2a5CrT_0lzcvx59CivCXwgg0td-a"/>
-                    <img src="https://drive.google.com/uc?id=1VWsDPQs_MQngnBXrKs1zCABDtji5QMhE"/>
-                    <img class ="rotateStyle" src="https://drive.google.com/uc?id=1wkeXBHADLeS4YoRpYjyr5iUa1BVmlAHE"/>
-                    <img src="https://drive.google.com/uc?id=1zMACeQKa8-_P3TxGdPQtMZK6J0LF_VBz"/>
-
-                    
-
-                    
-
+                    {this.imgIDArray.map(item => 
+                    <HairImageContainer imgURL={'https://drive.google.com/uc?id='+item}/>)}
                 </div>
                 <footer>
                     <p>see more <a target="_blank" href="https://www.instagram.com/brianlamhair/"> here</a></p>
@@ -31,5 +40,6 @@ class Hair extends Component {
 
     
 }
+
 
 export default Hair;
