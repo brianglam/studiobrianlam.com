@@ -1,18 +1,6 @@
 .videoGrid {
 }
 
-.videoWrapper {  
-    display: inline-table;  
-    width: 300px;
-    padding-left: 3px;
-    padding-right: 3px;
-}
-
-.videoWrapper iframe, .videoWrapper p {
-    width: 100%;
-    font-family: Courier New;
-}
-
 iframe {
     background-color: black;
 }

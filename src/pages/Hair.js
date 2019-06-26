@@ -20,7 +20,7 @@ class Hair extends Component {
             <div>
                 <div>
                     <div>
-                        <img width='300vh' src='https://drive.google.com/uc?id=1yugymc1NwZe1E4U6Xw-pLhKNkINAN4Ah'></img>
+                        <HairImageContainer imgURL='https://drive.google.com/uc?id=1yugymc1NwZe1E4U6Xw-pLhKNkINAN4Ah' />
                     </div>
                     <div>
                         <p>I learned how to cut hair on Youtube. Since 2005, I've had the pleasure of transforming the image of many good friends.</p>
