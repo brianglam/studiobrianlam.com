@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import './../css/App.css';
 import './../css/Hair.css';
 import HairImageContainer from '../components/HairImageContainer';
-import HeaderImageContainer from './../components/HeaderImageContainer';
-import { useSpring, animated } from 'react-spring/renderprops-universal';
 
 class Hair extends Component {
 
@@ -28,11 +26,11 @@ class Hair extends Component {
 
                 </div>
                 <div className="photoWrapper">
-                    {this.imgIDArray.map(item => 
-                    <HairImageContainer imgURL={'https://drive.google.com/uc?id='+item}/>)}
+                    {this.imgIDArray.map((item, index) => 
+                    <HairImageContainer key={index} imgURL={'https://drive.google.com/uc?id='+item}/>)}
                 </div>
                 <footer>
-                    <p>see more <a target="_blank" href="https://www.instagram.com/brianlamhair/"> here</a></p>
+                    <p>see more <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/brianlamhair/"> here</a></p>
                 </footer>
             </div>
         )

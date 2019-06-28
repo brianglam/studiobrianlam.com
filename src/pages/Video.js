@@ -23,8 +23,8 @@ class Video extends Component {
     render() {
         return (
             <div className="videoGrid">
-                {this.videoURLS.map(item => {
-                    return <VideoContainer videoSRC={item.videoSRC} videoText={item.videoText}></VideoContainer>
+                {this.videoURLS.map((item, index) => {
+                    return <VideoContainer key={index} videoSRC={item.videoSRC} videoText={item.videoText}></VideoContainer>
                 })}
             </div>
         )
