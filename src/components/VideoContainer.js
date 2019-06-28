@@ -8,7 +8,7 @@ const VideoContainer = (props) => {
 
     return (
         <animated.div style={styleProps}>
-            <iframe className="video" src={props.videoSRC} frameborder="0" allowFullScreen="true" webkitallowfullscreen="true"></iframe>
+            <iframe className="video" title={props.videoText} src={props.videoSRC} frameBorder="0" allowFullScreen={true} webkitallowfullscreen="true"></iframe>
             <p>{props.videoText}</p>
         </animated.div>
     )
