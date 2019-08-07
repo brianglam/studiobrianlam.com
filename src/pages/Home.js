@@ -13,11 +13,7 @@ class Home extends Component {
                 <div>
                     <p>Hi my name is Brian.</p>
                 </div>
-                <div className="description">
-                    <p>Metairie > Bay Area > NYC</p>
-                    <p>BA Computer Science University of California - Berkeley</p>
-                    <p>cinematography, hair cutting, dance, singing, fashion design</p>
-                </div>
+                
             </div>
         );
     }
