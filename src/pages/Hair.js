@@ -10,7 +10,7 @@ class Hair extends Component {
         '1xJ9WoHV_Fy8FsQ1rs6G2yNPzuPop4er7', '1Lt9aNp7VZe2pTsm1-i4Qhla6_suz-s87', '17N61vFfLoK9Emd7NDIIh-rNHFxoEDmLr',
         '1-dsol3-VPpnjXyKUwHX4Hv0GIqlKWMYN', '1ePiAFVwJ34vpQ9rKGXqmH88w0NSr-b_C', '1DdorUxMx6udhcb0ylny_V9JaQN_FPq0t',
         '1NLl7G0PiTygd0c7OaiQqm_r9ropsudzE', '1H6B8nhneMhj5XdXiWT9_oVXAgphZ-D9t', '1gj9b_Jm6ZeoWWmkO3RwA7P9hhDp27BUt',
-        '11kT948JX6i_LYTWiQ_Hu17OaqfmvV42P', '1TqHper54q0m6AN1_fa5rjfzGwwonm6Wp'
+        '11kT948JX6i_LYTWiQ_Hu17OaqfmvV42P', '1rFJ2dWxYWQU0fVL3tpGq9yU_IA-m2xf7'
     ]
     
     render() {
