@@ -11,8 +11,9 @@ class Hair extends Component {
         '1-dsol3-VPpnjXyKUwHX4Hv0GIqlKWMYN', '1ePiAFVwJ34vpQ9rKGXqmH88w0NSr-b_C', '1DdorUxMx6udhcb0ylny_V9JaQN_FPq0t',
         '1NLl7G0PiTygd0c7OaiQqm_r9ropsudzE', '1H6B8nhneMhj5XdXiWT9_oVXAgphZ-D9t', '1gj9b_Jm6ZeoWWmkO3RwA7P9hhDp27BUt',
         '11kT948JX6i_LYTWiQ_Hu17OaqfmvV42P', '1K_IvyFpgLv9QpFQFa7PN_tFDdr2ByGh9', '19dNDv8l-ESlTrCPkTiiQBCBBAMi3VI4p',
-        '1xNCVeEp-v6b0DaleX3YfflPDWPOkx7zJ', '1CDq_CXLQfko8bNjiPXf5p2AjgCPuXTB3', '1xrGRY2O675vU37o96cqkFkEkaj2p0PUz',
-        '1u_d0NtaahtjkwKuiBmRta62Djie8kshe', '1TvWloeCBAkZXrgf9PSWSkSxF17iUeNix'
+        '1bygwEGp2t9LgBX4ckAJPilI5QkvLXBCN', '1CDq_CXLQfko8bNjiPXf5p2AjgCPuXTB3', '1xrGRY2O675vU37o96cqkFkEkaj2p0PUz',
+        '1u_d0NtaahtjkwKuiBmRta62Djie8kshe', '1TvWloeCBAkZXrgf9PSWSkSxF17iUeNix', '1yv-fnoTsWY-PxLdu3n_bSqyzBQ7xQU1m',
+        '1jC_8wf_Ywo4-G6hoJMU0ACpMP0rCQY2D',
     ]
     
     render() {
